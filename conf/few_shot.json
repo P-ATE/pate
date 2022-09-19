@@ -1,0 +1,26 @@
+{
+    "tr_phases": [
+        {
+            "label_loss": false,
+            "lm": true,
+            "mlm_prob": 0.15,
+            "lm_ignore": true,
+            "steps": 2000,
+            "lr": 1e-5
+        },
+        {
+            "label_loss": true,
+            "lm": false,
+            "steps": 1000,
+            "lr": 2e-5
+        }
+    ],
+
+    "ace":
+        {
+            "ace_using_model": 1,
+            "model": "roberta-base",
+            "steps": 1000,
+            "lr": 3e-5
+        }
+}

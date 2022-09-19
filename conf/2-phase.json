@@ -1,0 +1,20 @@
+{
+    "tr_phases": [
+        {
+            "label_loss": false,
+            "lm": true,
+            "mlm_prob": 0.15,
+            "lm_ignore": true,
+            "AdaPETLoss": false,
+            "steps": 1000,
+            "lr": 5e-5
+        },
+        {
+            "label_loss": true,
+            "lm": false,
+            "AdaPETLoss": false,
+            "steps": 600,
+            "lr": 1e-5
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+export HF_DATASETS_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+clear; nohup python src/eval.py test rest 2 > logs/test-rest1.log 2>&1 &
